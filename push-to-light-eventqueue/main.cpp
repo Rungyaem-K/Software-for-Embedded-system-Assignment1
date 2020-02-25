@@ -10,7 +10,6 @@ void toggle() {
     led2=!led2;
 }
 
-
 int main() {
 	led2=0;
 	t.start(callback(&queue, &EventQueue::dispatch_forever));
